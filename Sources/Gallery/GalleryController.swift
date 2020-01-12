@@ -81,8 +81,8 @@ public class GalleryController: UIViewController, PermissionControllerDelegate {
         return makeImagesController()
       } else if tab == .cameraTab {
         return makeCameraController()
-      } else if tab == .videoTab {
-        return makeVideosController()
+//      } else if tab == .videoTab {
+//        return makeVideosController()
       } else {
         return nil
       }
